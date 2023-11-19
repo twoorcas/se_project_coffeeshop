@@ -330,12 +330,12 @@
   gap: 12px;
   justify-content: center;
 }
-.form__checkbox_input {
+.checkbox__input {
   border-radius: 2px;
   height: 20px;
   width: 20px;
 }
-.form__checkbox_label {
+.checkbox__label {
   font-family: "Inter", Arial, sans-serif;
 
   font-style: normal;
