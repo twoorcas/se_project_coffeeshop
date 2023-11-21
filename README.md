@@ -13,5 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plans on improving the project
 
-**1. Change the theme and content into something more personal.**
-**2. Replace the current photos with my photos and replace the logo with my profile photo.**
+- Change the theme and content into something more personal
+- Replace the current photos with my photos and replace the logo with my profile photo
