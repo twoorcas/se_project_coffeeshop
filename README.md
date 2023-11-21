@@ -11,6 +11,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - A custom form
 - CSS animation and transform
 
-## Plan on improving the project
+## Plans on improving the project
 
-Add your ideas here :)
+**\* Change the theme and content into something more personal**
+**\* Replace the current photos with my photos and replace the logo with my profile photo**
