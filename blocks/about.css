@@ -18,42 +18,32 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  z-index: 1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
+  z-index: 1;
 }
 
 .about__title {
   margin: 0;
-
-  position: relative;
-
   max-width: 251px;
   font-style: normal;
-
   font-weight: 500;
-
   font-size: 44px;
-
   line-height: 52px;
   font-family: "Inter", Arial, sans-serif;
 }
 
 .about__content {
   max-width: 660px;
-  position: relative;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   row-gap: 20px;
   font-style: normal;
-
   font-weight: normal;
-
   font-size: 20px;
-
   line-height: 30px;
   font-family: "Noto Serif", "Times New Roman", serif;
   margin-top: 19px;
@@ -75,13 +65,5 @@
 }
 
 .about__circle_animatioin_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  z-index: -1;
   animation: pulsate 1.3s ease-in-out infinite;
 }

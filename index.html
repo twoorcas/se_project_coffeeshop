@@ -34,9 +34,9 @@
             <li><a href="#about" class="nav__link">Contacts</a></li>
           </ul>
         </nav>
-        <h1 class="title header__title">
-          <span class="title__span-accent">Specialty coffee</span>
-          <span class="title__span-descent">in the Triple Peaks Library</span>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span>
+          <span></span>in the Triple Peaks Library</span>
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
@@ -50,15 +50,11 @@
 
         <div class="header__footer">
           <div>
-            <p class="header__footer-paragraph">Hours:</p>
-            <p class="header__footer-paragraph">
-              Monday – Friday (10:00 – 19:00)
-            </p>
-            <p class="header__footer-paragraph">
-              Saturday – Sunday (11:00 – 18:00)
-            </p>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <p class="header__footer-paragraph">
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -66,13 +62,13 @@
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <div class="recipes__subtitle">
+          <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
-          </div>
+          </p>
           <div class="recipes__videos">
             <div>
-              <div class="recipes__container">
+              <div class="recipes__video">
                 <iframe
                   src="https://www.youtube.com/embed/j6VlT_jUVPc?si=BCo8J6vcb-2pOnU0"
                   title="YouTube video player"
@@ -81,13 +77,13 @@
                   class="recipes__iframe"
                 ></iframe>
               </div>
-              <p class="caption recipes__caption">
-                <span class="caption__span-left">Aeropress recipe</span>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span>
                 <span>~5 min</span>
               </p>
             </div>
             <div>
-              <div class="recipes__container">
+              <div class="recipes__video">
                 <iframe
                   src="https://www.youtube.com/embed/st571DYYTR8?si=Pl3_G9CrlnEUN4tX"
                   title="YouTube video player"
@@ -96,21 +92,19 @@
                   class="recipes__iframe"
                 ></iframe>
               </div>
-              <p class="caption recipes__caption">
-                <span class="caption__span-left">French press recipe </span>
+              <p class="recipes__video-caption">
+                <span>French press recipe </span>
                 <span>~15 min</span>
               </p>
             </div>
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <h2 class="title reservation__title">Book a table</h2>
+          <h2 class="reservation__title">Book a table</h2>
 
-          <form class="form reservation__form">
+          <form class="reservation__form">
             <fieldset class="fieldset form__fieldset">
-              <label for="name" class="form__label form__label_name"
-                >Name *</label
-              >
+              <label for="name" class="form__label">Name *</label>
               <input
                 type="text"
                 class="form__input"
@@ -151,26 +145,24 @@
               />
             </fieldset>
 
-            <button class="button form__button" type="submit">
-              Book a table
-            </button>
+            <button class="form__button" type="submit">Book a table</button>
 
-            <div class="checkbox form__checkbox">
+            <div class="form__checkbox">
               <input
                 type="checkbox"
-                class="checkbox__input"
+                class="form__input form__input_type_checkbox"
                 id="checkbox"
                 name="termsofuse"
                 required
               />
-              <label class="checkbox__label">
+              <label class="form__label form__label_type_checkbox">
                 I agree with the terms of use
               </label>
             </div>
           </form>
         </section>
         <section class="menu" id="menu">
-          <h2 class="title menu__title">Menu</h2>
+          <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
