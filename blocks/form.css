@@ -1,3 +1,7 @@
+.form {
+  width: 385px;
+  padding: 0;
+}
 .form__fieldset {
   padding: 0;
   border-style: none;
